@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import axios from 'axios'
-import SearchContent from './SearchContainer'
-
+import './weather.css'
+import Weather from './SearchContainer'
 
 
 function Search() {
@@ -25,11 +25,27 @@ function Search() {
         setWeathers(response.data)
     }
   
+    
+
     return (
        <div className="search">
          <input value={city} onChange={handleSearchCity} />
          <button onClick={searchWeathers}>Search</button> 
-       </div> 
+         <div className="search-container">
+         <p className="weather-name">{weathers && <Weather name={weathers.name} />}</p>
+         <p className="temps">{weathers && <Weather temp={Math.round(weathers.main.temp - 273.15)} />}</p>
+         <p className="weather-desc">{weathers && <Weather className="desc" desc={weathers.weather[0].description} />}</p>
+         {console.log(weathers)}
+          {/* <img className="img" alt="weather-img" src={`http://openweathermap.org/img/wn/${weathers.weather[0].icon}@2x.png`}></img> */}
+
+         </div>
+         </div>
+       
     )
-}
+};
+
+
+
+
+
 export default Search;
