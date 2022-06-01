@@ -5,11 +5,12 @@ import Profile from '../Pages/Profile';
 import About from '../Pages/About';
 import ErrorPage from '../Pages/ErrorPage';
 
+
 const Routing = () => {
   return (
     <Router>
       <nav>
-        <Link to='/'>Home</Link>
+        <Link className="Home" to='/'>Home</Link>
         <Link to='about'>About</Link>
         <Link to='profile'>Profile</Link>
       </nav>
