@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.ui.card {
+  font-size: 30px;
+  width: 350px;
+  height: 200px; 
+  position: absolute;
+  top: 80px;
+  left: -11%;
+  line-height: 35px;
+}
+
+.weather-icon {
+  
+  position: absolute;
+  right: -10%;
+  bottom: 90%;
+  height: 30rem;
+}
+
+.description {
+  font-size: 30px;
+  text-transform: capitalize;
+  
+}
+
+.search {
+  font-size: 1rem;
+  position: absolute;
+  top: 10%;
+  right: 50%;
+}
+
+.weathers.name{
+  font-size: 5rem;
+}
