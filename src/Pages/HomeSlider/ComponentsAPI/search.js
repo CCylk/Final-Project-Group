@@ -7,7 +7,7 @@ function Search() {
   const [weathers, setWeathers] = useState(null);
   const [city, setCity] = useState('');
   const API = {
-    link: 'http://api.openweathermap.org/data/2.5/weather?q=',
+    link: 'https://api.openweathermap.org/data/2.5/weather?q=',
     key: '&appid=b0432e7a77178ed756d91a25f826447f',
   };
 
