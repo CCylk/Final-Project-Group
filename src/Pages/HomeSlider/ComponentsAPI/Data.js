@@ -9,17 +9,17 @@ const Data = ({ data }) => {
 
   const Temp = Math.round(convertToC(data['main']['temp'])) + "°C";
   return (
-    <div className='ui card'>
+    <div>
+      <div className='title'>{data.name}</div>
       <div className='content'>
-        <a className='title'>{data.name}</a>
         <div className='temp'>{Temp}</div>
         <div className='description'>{data.weather[0].description}
-        <img
-              src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
-              alt="weather status icon"
-              className="weather-icon"
-            />
         </div>
+        <img
+          src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
+          alt="weather status icon"
+          className="weather-icon"
+            />
       </div>
     </div>
   );

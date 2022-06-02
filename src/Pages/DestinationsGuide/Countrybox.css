@@ -2,6 +2,11 @@
   background-color: #f4f3f7;
   border-radius: 5px;
   height: 300px;
+  padding-top: 0.5%;
+}
+
+.box-card h2 {
+  text-align: center;
 }
 
 .desc {
@@ -19,6 +24,7 @@ img {
 
 .detail {
   margin-top: 0.5%;
+  padding: 0 2%;
 }
 
 .box-card:hover {

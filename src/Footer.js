@@ -1,8 +1,9 @@
 import React from 'react'
+import './Footer.css'
 
 const Footer = () => {
   return (
-    <div class='ui divider'>Bowden/Cylkowski 2022</div>
+    <div id='footer' class='ui divider'>Bowden/Cylkowski 2022</div>
   )
 }
 

@@ -26,14 +26,22 @@ function Search() {
 
   return (
     <div className='search'>
-      <input value={city} onChange={handleSearchCity} />
-      <button onClick={searchWeathers}>Search</button>
+      <p class='search-text'>Find your current forecast:</p>
+      <div class='searchbar-container'>
+      <div class='ui input'>
+      <input type='text' value={city} onChange={handleSearchCity} />
+      </div>
+      <button class='ui button' onClick={searchWeathers}>Search</button>
+      </div>
       {weathers && <SearchContainer weathers={weathers} />}
     </div>
   );
 }
 
 export default Search;
+
+
+
 
 
 

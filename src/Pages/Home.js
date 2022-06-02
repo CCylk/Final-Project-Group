@@ -5,7 +5,6 @@ import Search from './HomeSlider/ComponentsAPI/search'
 const Home = () => {
   return (
   <div> 
-    Home
     <Slider/>
     <Search/>
   </div>

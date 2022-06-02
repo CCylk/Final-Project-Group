@@ -5,7 +5,6 @@ import Intro from './DestinationsGuide/Intro';
 
 const Guide = () => {
   return <div>
-    Guide
     <Intro />
         <Countrylist />
         <Weathertable />

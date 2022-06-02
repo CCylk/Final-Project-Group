@@ -4,6 +4,7 @@ import Home from '../Pages/Home';
 import Profile from '../Pages/Profile';
 import Guide from '../Pages/Guide';
 import ErrorPage from '../Pages/ErrorPage';
+import './Routing.css'
 
 
 const Routing = () => {
