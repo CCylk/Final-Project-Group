@@ -1,0 +1,13 @@
+.weather-table {
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  background-color: #d8ecfd;
+  padding: 1% 2% 2% 2%;
+  border-radius: 5px;
+}
+
+.weather-table h2 {
+  font-size: 2.5rem;
+  color: #001f54;
+}

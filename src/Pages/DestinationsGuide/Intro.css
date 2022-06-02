@@ -1,0 +1,29 @@
+.dest-intro {
+  background-color: #d8ecfd;
+  height: auto;
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 5px;
+}
+
+.dest-intro h2 {
+  padding-top: 1%;
+  font-size: 2.5rem;
+  color: #001f54;
+}
+
+.dest-overview{
+  display: flex;
+}
+
+.dest-overview p {
+  font-size: 2.5rem;
+  padding: 7.5%;
+  color: #4a90e2;
+  margin-bottom: 0;
+}
+
+.dest-overview img {
+  width: 40%;
+}
